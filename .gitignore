@@ -1,0 +1,9 @@
+# cPanel / server artifacts (never commit or deploy)
+.ftpquota
+error_log
+.well-known/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini

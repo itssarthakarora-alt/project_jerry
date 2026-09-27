@@ -1,0 +1,42 @@
+# Pipeline 1 — Deploy everything on GitHub to GoDaddy cPanel
+# Trigger: every push to main/master, or manual run from the Actions tab.
+name: Deploy to GoDaddy cPanel
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    name: Deploy website via FTP
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Deploy files to cPanel (public_html)
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+
+          # This FTP account (deploy@jerryscvv.vc) opens directly inside
+          # public_html/jerryscvv.vc/, so the deploy root is the account root.
+          server-dir: ./
+
+          # Never upload these — they are also protected from deletion on the
+          # server (this action syncs: remote files not in the repo get deleted).
+          exclude: |
+            **/.git*
+            **/.git*/**
+            .github/**
+            .gitignore
+            README.md
+            .well-known/**
+            error_log
+            .ftpquota

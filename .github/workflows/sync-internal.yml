@@ -1,0 +1,53 @@
+# Pipeline 2 — Keep internal.php in sync (GitHub is the source of truth)
+# Trigger: every 15 minutes + manual run from the Actions tab.
+# If the server's internal.php differs from GitHub's, GitHub's copy is pushed up.
+name: Sync internal.php (GitHub → GoDaddy)
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'   # every 15 minutes (UTC)
+  workflow_dispatch:
+
+jobs:
+  sync:
+    name: Check and sync internal.php
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Compare internal.php with the server copy
+        env:
+          FTP_SERVER: ${{ secrets.FTP_SERVER }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        run: |
+          set -euo pipefail
+
+          # This FTP account opens directly inside public_html/jerryscvv.vc/,
+          # so internal.php lives at the root of the FTP account.
+          REMOTE_FILE="/internal.php"
+          FTP_URL="ftp://${FTP_SERVER}${REMOTE_FILE}"
+
+          echo "Checking server copy: ${FTP_URL}"
+
+          if curl --silent --show-error --connect-timeout 30 \
+              -u "${FTP_USERNAME}:${FTP_PASSWORD}" \
+              "${FTP_URL}" -o /tmp/remote-internal.php; then
+
+            if cmp -s internal.php /tmp/remote-internal.php; then
+              echo "OK: internal.php is already in sync - nothing to do."
+            else
+              echo "CHANGED: difference detected - uploading GitHub's internal.php."
+              curl --silent --show-error --connect-timeout 30 \
+                -u "${FTP_USERNAME}:${FTP_PASSWORD}" \
+                -T internal.php "${FTP_URL}"
+            fi
+
+          else
+            echo "MISSING: internal.php not found on the server - uploading it from GitHub."
+            curl --silent --show-error --connect-timeout 30 \
+              -u "${FTP_USERNAME}:${FTP_PASSWORD}" \
+              -T internal.php "${FTP_URL}"
+          fi
