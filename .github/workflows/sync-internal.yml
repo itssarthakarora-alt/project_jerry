@@ -11,7 +11,7 @@ on:
     paths:
       - 'internal.php'
   schedule:
-    - cron: '*/15 * * * *'   # every 15 minutes (UTC)
+    - cron: '7,22,37,52 * * * *'   # every 15 min, offset to avoid top-of-hour load
   workflow_dispatch:
 
 jobs:
