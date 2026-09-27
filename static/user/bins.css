@@ -1,0 +1,161 @@
+.input-pair {
+    width: 100%;
+}
+
+
+.input-pair input {
+    resize: vertical;
+    border: 1px solid rgb(218, 221, 224);
+    background: #fff;
+    border-radius: 0.375rem;
+    padding-left: 5px;
+    transition: 0.5s;
+    min-height: 40px;
+    width: 95%;
+    /* margin: 0 10px; */
+}
+
+
+.input-pair input:focus {
+    outline: none;
+    border-color: var(--primary-bg-color);
+}
+
+.input-pair label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-top: 9px;
+    margin-bottom: .35rem;
+}
+
+.filter-wrap {
+    width: 20%;
+    padding: 20px;
+    background-color: var(--back-tran);
+    border-radius: 5px;
+    backdrop-filter: blur(5px);
+    z-index: 1;
+    /* height: fit-content; */
+}
+
+.table-wrapper {
+    width: 100%;
+    padding: 20px;
+    background-color: var(--back-tran);
+    border-radius: 5px;
+    backdrop-filter: blur(5px);
+    overflow: auto;
+    word-wrap: break-word;
+    /* max-height: 80vh; */
+    max-height: 58vh;
+}
+
+.table-wrapper.bins {
+    max-height: 40vh;
+}
+
+
+table {
+    width: 100%;
+    background-color: transparent;
+    border-radius: 5px;
+    box-shadow: rgba(169, 184, 200, 0.15) 0px 4px 16px 0px;
+    text-align: left;
+    border-collapse: collapse;
+    border: 1px solid #eaedf1 !important;
+}
+
+th {
+    min-width: 100px;
+    padding: 12px ;
+    border: 1px solid rgb(234, 237, 241);
+    border-radius: 5px;
+}
+
+tbody th {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.cards th {
+    width: 12.5%;
+    min-width: 0;
+}
+
+.cards th:first-child {
+    min-width: 300px;
+}
+
+th a {
+    color: var(--primary-bg-color);
+    text-decoration: none;
+}
+
+
+.navigate > * {
+    margin-right: 10px;
+    color: var(--primary-bg-hover);
+    font-weight: 600;
+}
+  
+.navigate p {
+    color: var(--bs-text);
+}
+  
+.more-button {
+    margin-top: 15px;
+    background-color: var(--primary-bg-color);
+    color: var(--bs-text);
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+    min-width: 100px;
+    font-weight: 600;
+    border: 1px solid var(--primary-bg-hover);
+    min-width: fit-content;
+    padding: 0 20px;
+}
+
+.more-button:hover {
+    background-color: var(--dark-bg);
+    color: var(--primary-bg-hover);
+}
+
+
+.overflow {
+    overflow: auto;
+}
+
+@media (max-width:1032px) {
+    .wrapper {
+        flex-direction: column;
+    }
+    .filter-wrap {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .table-wrapper {
+        overflow: auto;
+    }
+    .input-pair textarea,
+    .input-pair select,
+    .input-pair input {
+      min-height: 2.15rem;
+      font-size: 36px;
+    }
+    .more-button,
+    .ref {
+      font-size: 36px;
+      padding: 10px 20px;
+      height: auto;
+    }
+    input[type="checkbox"] {
+      width: 36px;
+      height: 36px;
+    }
+    .navigate a {
+      margin-right: 25px;
+    }
+  }

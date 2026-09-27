@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bin checke</title>
+
+    <link rel="stylesheet" href="static/header.css">
+    <link rel="icon" href="static/svg/favicon.ico" class="icon">
+
+
+    <link rel="stylesheet" href="static/user/bins.css">
+    <link rel="stylesheet" href="https://unpkg.com/notyf/notyf.min.css">
+    <script src="https://unpkg.com/notyf/notyf.min.js"></script>
+
+    <script src="static/header.js"></script>
+    <script src="static/languages.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-top">
+            <div class="logo"> <svg onclick="showMenu()" xmlns="" width="60" height="60" viewBox="0 0 24 24">
+                    <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path>
+                </svg><a href="news"><img src="static/svg/photo_2023-08-13_20-30-45.jpg" alt="" height="120px"
+                        class="logo-jerry"></a> </div>
+            <div class="header-top-buttons">
+                <div class="d-flex justify-center align-center">
+                    <div class="lang-select">
+                        <div class="selected d-flex justify-center align-center">
+                            <img src="static/svg/us.svg" alt="">
+                        </div>
+                        <div class="select-list">
+                            <div class="wrap">
+                                <img src="static/svg/us.svg" alt="" onclick="changeLang('us')">
+                                <img src="static/svg/cn.svg" alt="" onclick="changeLang('cn')">
+                                <img src="static/svg/ru.svg" alt="" onclick="changeLang('ru')">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-wrap">
+                    <div class="top-button cart" onclick="showCart()">
+                        <a href="#">
+                            <svg xmlns="" width="1.3rem" viewBox="0 0 24 24">
+                                <path
+                                    d="M21.822 7.431A1 1 0 0 0 21 7H7.333L6.179 4.23A1.994 1.994 0 0 0 4.333 3H2v2h2.333l4.744 11.385A1 1 0 0 0 10 17h8c.417 0 .79-.259.937-.648l3-8a1 1 0 0 0-.115-.921zM17.307 15h-6.64l-2.5-6h11.39l-2.25 6z">
+                                </path>
+                                <circle cx="10.5" cy="19.5" r="1.5"></circle>
+                                <circle cx="17.5" cy="19.5" r="1.5"></circle>
+                            </svg>
+
+                        </a>
+                    </div>
+                    <div class="cart-items d-flex flex-column justify-between align-between">
+                        <div class="d-flex justify-between p-20 align-center">
+                            <p id="shoppingCart">Shopping Cart</p>
+                        </div>
+                        <div class="overflow-cart">
+
+                        </div>
+
+
+                        <div class="d-flex justify-between p-20 align-center">
+                            Cart is empty, add some cards...
+                        </div>
+
+                    </div>
+                </div>
+                <div class="top-button balance"><a href="deposit">$ 0.00</a></div>
+                <div class="top-button profile"><a href="profile" class="d-flex align-center"><svg xmlns=""
+                            width="1.3rem" viewBox="0 0 24 24">
+                            <path
+                                d="M12 2a5 5 0 1 0 5 5 5 5 0 0 0-5-5zm0 8a3 3 0 1 1 3-3 3 3 0 0 1-3 3zm9 11v-1a7 7 0 0 0-7-7h-4a7 7 0 0 0-7 7v1h2v-1a5 5 0 0 1 5-5h4a5 5 0 0 1 5 5v1z">
+                            </path>
+                        </svg></a></div>
+                <div class="top-button profile"><a href="logout" class="d-flex align-center">
+                        <svg xmlns="" width="1.3rem" viewBox="0 0 24 24">
+                            <path d="M16 13v-2H7V8l-5 4 5 4v-3z"></path>
+                            <path
+                                d="M20 3h-9c-1.103 0-2 .897-2 2v4h2V5h9v14h-9v-4H9v4c0 1.103.897 2 2 2h9c1.103 0 2-.897 2-2V5c0-1.103-.897-2-2-2z">
+                            </path>
+                        </svg>
+                    </a></div>
+
+            </div>
+        </div>
+        <div class="header-bottom justify-start">
+            <div class="logo"> <svg onclick="showMenu()" xmlns="" width="60" height="60" viewBox="0 0 24 24">
+                    <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path>
+                </svg><a href="news"><img src="static/svg/photo_2023-08-13_20-30-45.jpg" alt="" height="50px"
+                        class="logo-jerry"></a></div>
+            <div class="d-flex justify-between w100p">
+                <div class="header-left d-flex">
+                    <div class="header-menu-item"><a href="news"> <svg xmlns="" width="1.3rem" viewBox="0 0 24 24">
+                                <path
+                                    d="M5 22h14a2 2 0 0 0 2-2v-9a1 1 0 0 0-.29-.71l-8-8a1 1 0 0 0-1.41 0l-8 8A1 1 0 0 0 3 11v9a2 2 0 0 0 2 2zm5-2v-5h4v5zm-5-8.59 7-7 7 7V20h-3v-5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v5H5z">
+                                </path>
+                            </svg> <span id="news"> News </span></a></div>
+                    <div class="header-menu-item list" onclick="openHidden(this)"><a href="#"> <svg xmlns=""
+                                width="1.3rem" viewBox="0 0 24 24">
+
+                                <path
+                                    d="M20 4H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zM4 18V6h16l.001 12H4z">
+                                </path>
+                                <path
+                                    d="M6.5 11h3a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v2a.5.5 0 0 0 .5.5zM6 14h6v2.001H6zm7 0h5v2.001h-5z">
+                                </path>
+                            </svg>
+
+
+
+                            <span id="cards"> Cards</span></a> <svg xmlns="" width="1.3rem" viewBox="0 0 24 24">
+                            <path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path>
+                        </svg>
+                        <ul class="hidden-content inside">
+                            <li> <a href="cards" id="buyCards">Buy Cards </a> </li>
+                            <li> <a href="history" id="myCards">My Cards </a> </li>
+                            <li> <a href="preorder" id="preorder">Preorder </a> </li>
+                        </ul>
+                    </div>
+                    <ul class="hidden-content">
+                        <li> <a href="cards" id="buyCards">Buy Cards </a> </li>
+                        <li> <a href="history" id="myCards">My Cards </a> </li>
+                        <li> <a href="preorder" id="preorder">Preorder </a> </li>
+                    </ul>
+                    <!-- <div class="header-menu-item"><a href="preorder"> <svg xmlns="" width="1.3rem"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="M21 5c0-1.103-.897-2-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2V5zM5 19V5h14l.002 14H5z">
+                                </path>
+                                <path d="M7 7h1.998v2H7zm4 0h6v2h-6zm-4 4h1.998v2H7zm4 0h6v2h-6zm-4 4h1.998v2H7zm4 0h6v2h-6z">
+                                </path>
+                            </svg> <span> Preorder </span></a></div> -->
+                    <div class="header-menu-item"><a href="sellers"> <svg xmlns="" width="1.3rem" viewBox="0 0 24 24">
+                                <path
+                                    d="M16.604 11.048a5.67 5.67 0 0 0 .751-3.44c-.179-1.784-1.175-3.361-2.803-4.44l-1.105 1.666c1.119.742 1.8 1.799 1.918 2.974a3.693 3.693 0 0 1-1.072 2.986l-1.192 1.192 1.618.475C18.951 13.701 19 17.957 19 18h2c0-1.789-.956-5.285-4.396-6.952z">
+                                </path>
+                                <path
+                                    d="M9.5 12c2.206 0 4-1.794 4-4s-1.794-4-4-4-4 1.794-4 4 1.794 4 4 4zm0-6c1.103 0 2 .897 2 2s-.897 2-2 2-2-.897-2-2 .897-2 2-2zm1.5 7H8c-3.309 0-6 2.691-6 6v1h2v-1c0-2.206 1.794-4 4-4h3c2.206 0 4 1.794 4 4v1h2v-1c0-3.309-2.691-6-6-6z">
+                                </path>
+                            </svg> <span id="sellers"> Sellers </span></a></div>
+                    <div class="header-menu-item list" onclick="openHidden(this)"><a href="#"> <svg xmlns=""
+                                width="1.3rem" viewBox="0 0 24 24">
+                                <path
+                                    d="M5.122 21c.378.378.88.586 1.414.586S7.572 21.378 7.95 21l4.336-4.336a7.495 7.495 0 0 0 2.217.333 7.446 7.446 0 0 0 5.302-2.195 7.484 7.484 0 0 0 1.632-8.158l-.57-1.388-4.244 4.243-2.121-2.122 4.243-4.243-1.389-.571A7.478 7.478 0 0 0 14.499 2c-2.003 0-3.886.78-5.301 2.196a7.479 7.479 0 0 0-1.862 7.518L3 16.05a2.001 2.001 0 0 0 0 2.828L5.122 21zm4.548-8.791-.254-.616a5.486 5.486 0 0 1 1.196-5.983 5.46 5.46 0 0 1 4.413-1.585l-3.353 3.353 4.949 4.95 3.355-3.355a5.49 5.49 0 0 1-1.587 4.416c-1.55 1.55-3.964 2.027-5.984 1.196l-.615-.255-5.254 5.256h.001l-.001 1v-1l-2.122-2.122 5.256-5.255z">
+                                </path>
+                            </svg> <span id="tools"> Tools </span></a><svg xmlns="" width="1.3rem" viewBox="0 0 24 24">
+                            <path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path>
+                        </svg>
+                        <ul class="hidden-content inside">
+                            <li> <a href="tools"" id=" services">Services </a> </li>
+                            <li> <a href="bins" id="binChecker">BIN Checker </a> </li>
+                            <li> <a href="card_check" id="cardChecker">Card Checker </a> </li>
+                        </ul>
+                    </div>
+                    <ul class="hidden-content">
+                        <li> <a href="tools"" id=" services">Services </a> </li>
+                        <li> <a href="bins" id="binChecker">BIN Checker </a> </li>
+                        <li> <a href="card_check" id="cardChecker">Card Checker </a> </li>
+                    </ul>
+                    <div class="header-menu-item"><a href="support"> <svg xmlns="" width="1.3rem" viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2C6.486 2 2 6.486 2 12v4.143C2 17.167 2.897 18 4 18h1a1 1 0 0 0 1-1v-5.143a1 1 0 0 0-1-1h-.908C4.648 6.987 7.978 4 12 4s7.352 2.987 7.908 6.857H19a1 1 0 0 0-1 1V18c0 1.103-.897 2-2 2h-2v-1h-4v3h6c2.206 0 4-1.794 4-4 1.103 0 2-.833 2-1.857V12c0-5.514-4.486-10-10-10z">
+                                </path>
+                            </svg> <span id="support"> Support </span>
+
+                        </a></div>
+                    <div class="header-menu-item"><a href="stats"> <svg xmlns="" width="1.3rem" viewBox="0 0 24 24">
+                                <path
+                                    d="m6.516 14.323-1.49 6.452a.998.998 0 0 0 1.529 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082a1 1 0 0 0-.59-1.74l-5.701-.454-2.467-5.461a.998.998 0 0 0-1.822 0L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.214 4.107zm2.853-4.326a.998.998 0 0 0 .832-.586L12 5.43l1.799 3.981a.998.998 0 0 0 .832.586l3.972.315-3.271 2.944c-.284.256-.397.65-.293 1.018l1.253 4.385-3.736-2.491a.995.995 0 0 0-1.109 0l-3.904 2.603 1.05-4.546a1 1 0 0 0-.276-.94l-3.038-2.962 4.09-.326z">
+                                </path>
+                            </svg> <span id="statistic"> Statistic </span></a></div>
+                    <div class="header-menu-item"><a href="deposit"> <svg xmlns="" width="1.3rem" viewBox="0 0 24 24">
+                                <path
+                                    d="M21 4H3a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1zm-1 11a3 3 0 0 0-3 3H7a3 3 0 0 0-3-3V9a3 3 0 0 0 3-3h10a3 3 0 0 0 3 3v6z">
+                                </path>
+                                <path
+                                    d="M12 8c-2.206 0-4 1.794-4 4s1.794 4 4 4 4-1.794 4-4-1.794-4-4-4zm0 6c-1.103 0-2-.897-2-2s.897-2 2-2 2 .897 2 2-.897 2-2 2z">
+                                </path>
+                            </svg> <span id="deposit"> Deposit </span></a></div>
+                    <div class="header-menu-item list" onclick="openHidden(this)"><a href="#"> <svg xmlns=""
+                                width="1.3rem" viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8z">
+                                </path>
+                                <path d="M11 11h2v6h-2zm0-4h2v2h-2z"></path>
+                            </svg> <span id="info"> Info</span></a><svg xmlns="" width="1.3rem" viewBox="0 0 24 24">
+                            <path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path>
+                        </svg>
+                        <ul class="hidden-content inside">
+                            <li> <a href="faq" id="faq">FAQ </a> </li>
+                            <li> <a href="rules" id="rules">Rules </a> </li>
+                        </ul>
+                    </div>
+                    <ul class="hidden-content">
+                        <li> <a href="faq" id="faq">FAQ </a> </li>
+                        <li> <a href="rules" id="rules">Rules </a> </li>
+                    </ul>
+
+
+
+
+                </div>
+
+                <div class="header-top-buttons">
+                    <div class="d-flex justify-center align-center">
+                        <div class="lang-select">
+                            <div class="selected d-flex justify-center align-center">
+                                <img src="static/svg/us.svg" alt="">
+                            </div>
+                            <div class="select-list">
+                                <div class="wrap">
+                                    <img src="static/svg/us.svg" alt="" onclick="changeLang('us')">
+                                    <img src="static/svg/cn.svg" alt="" onclick="changeLang('cn')">
+                                    <img src="static/svg/ru.svg" alt="" onclick="changeLang('ru')">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-wrap">
+                        <div class="top-button cart" onclick="showCart()">
+                            <a href="#">
+                                <svg xmlns="" width="1.3rem" viewBox="0 0 24 24">
+                                    <path
+                                        d="M21.822 7.431A1 1 0 0 0 21 7H7.333L6.179 4.23A1.994 1.994 0 0 0 4.333 3H2v2h2.333l4.744 11.385A1 1 0 0 0 10 17h8c.417 0 .79-.259.937-.648l3-8a1 1 0 0 0-.115-.921zM17.307 15h-6.64l-2.5-6h11.39l-2.25 6z">
+                                    </path>
+                                    <circle cx="10.5" cy="19.5" r="1.5"></circle>
+                                    <circle cx="17.5" cy="19.5" r="1.5"></circle>
+                                </svg>
+
+                            </a>
+                        </div>
+                        <div class="cart-items d-flex flex-column justify-between align-between">
+                            <div class="d-flex justify-between p-20 align-center">
+                                <p id="shoppingCart">Shopping Cart</p>
+                            </div>
+                            <div class="overflow-cart">
+
+                            </div>
+
+
+                            <div class="d-flex justify-between p-20 align-center">
+                                Cart is empty, add some cards...
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="top-button balance"><a href="deposit">$ 0.00</a></div>
+                    <div class="top-button profile"><a href="profile" class="d-flex align-center"><svg xmlns=""
+                                width="1.3rem" viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2a5 5 0 1 0 5 5 5 5 0 0 0-5-5zm0 8a3 3 0 1 1 3-3 3 3 0 0 1-3 3zm9 11v-1a7 7 0 0 0-7-7h-4a7 7 0 0 0-7 7v1h2v-1a5 5 0 0 1 5-5h4a5 5 0 0 1 5 5v1z">
+                                </path>
+                            </svg></a></div>
+                    <div class="top-button profile"><a href="logout" class="d-flex align-center">
+                            <svg xmlns="" width="1.3rem" viewBox="0 0 24 24">
+                                <path d="M16 13v-2H7V8l-5 4 5 4v-3z"></path>
+                                <path
+                                    d="M20 3h-9c-1.103 0-2 .897-2 2v4h2V5h9v14h-9v-4H9v4c0 1.103.897 2 2 2h9c1.103 0 2-.897 2-2V5c0-1.103-.897-2-2-2z">
+                                </path>
+                            </svg>
+                        </a></div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="cover" onclick="showCart()">
+
+    </div>
+
+    <div class="header-cover"></div>
+
+    <div class="main-content">
+        <div class="popup">
+            <div class="popup-window">
+                <div class="p-20 d-flex justify-between align-center">
+                    <h2></h2>
+                    <div class="d-flex justify-between align-center">
+                        <svg onclick="callPopup()" xmlns="" width="1.5em" height="1.5em" viewBox="0 0 24 24">
+                            <path
+                                d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="p-20 popup-content">
+                    <h2 style="text-align: center;"><span style="color: rgb(230, 126, 35);">Welcome to Jerry's
+                            Store</span></h2>
+                    <p>&nbsp;</p>
+                    <p><span style="color: rgb(22, 145, 121);"><strong><span style="color: rgb(0, 0, 0);"><span
+                                        style="color: rgb(22, 145, 121);">-</span></span>Telegram C<span
+                                    style="color: rgb(22, 145, 121);">hannel：<span style="color: rgb(186, 55, 42);"><a
+                                            href="https://t.me/+7kOGV_9CR2swYTdl" target="_blank"
+                                            rel="noopener">LINK</a></span></span></strong></span></p>
+                    <p>&nbsp;</p>
+                    <p><strong><span style="color: rgb(22, 145, 121);">-Telegram group：</span><a
+                                href="https://t.me/+jg8G1m1C54FkYzVk" target="_blank" rel="noopener">LINK</a></strong>
+                    </p>
+                    <p>&nbsp;</p>
+                    <h5><span style="color: rgb(52, 73, 94);">-Use the invitation code to invite your partner and you'll
+                            get 5% of the amount they top up as a bonus. (<span style="color: rgb(186, 55, 42);">only in
+                                the store consumption</span>)</span></h5>
+                    <h5>&nbsp;</h5>
+                    <h5><span style="color: rgb(52, 73, 94);">-If you have any questions, please contact the
+                            administrator through the ticketing system</span></h5>
+                    <h5>&nbsp;</h5>
+                    <h5><strong><span style="color: rgb(52, 73, 94);">-New users please read the FAQ and
+                                rules</span></strong></h5>
+                    <p>&nbsp;</p>
+                    <h5><span style="color: rgb(186, 55, 42);"><strong>-If you find a BIN in the store that is not
+                                listed as non-VBV, you can create a ticket to contact us. Once we verify that the BIN is
+                                non-VBV, we will add a bonus of $10 for each BIN for you.</strong></span></h5>
+                    <p>&nbsp;</p>
+                    <h5><span style="color: rgb(224, 62, 45);">-If you wish to become a supplier of ours, please send
+                            support to contact us.</span></h5>
+                </div>
+                <div class="d-flex p-20 w100p justify-center">
+                    <button class="popup-button" onclick="callPopup()">OK</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- <img src="static/svg/back-jerry-line.png" alt="" class="jerry-back"> -->
+
+
+
+
+        <h3 class="pl-20">BINs</h3>
+        <div class="wrapper d-flex flex-row pl-20 pt-10">
+            <div class="filter-wrap mr-10">
+                <div>
+                    <div class="row-filter d-flex flex-column align-center">
+                        <div class="input-pair d-flex flex-column h100p">
+                            <label for="">BIN:</label>
+                            <input type="text" name="bin" placeholder="444444, 555555" value="">
+                        </div>
+                        <div class="d-flex justify-between align-center w100p">
+                            <p class="mt-15">-0.2$</p>
+                            <button class="more-button" id="submit" onclick="search()">Submit</button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <script>
+            const notyf = new Notyf({
+                duration: 5000, // Set the notification duration (optional)
+                position: {
+                    x: 'center',
+                    y: 'top',
+                }
+            });
+            function search() {
+                notyf.error('Low balance !');
+            }
+
+        </script>
+
+
+    </div>
+
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"6ff23187973a4235aef86e4f000a21bf","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+
+
+</html>
