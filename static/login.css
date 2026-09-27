@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,600&amp;display=swap');
 @import "colors.css";
-
 * {
     margin: 0;
     padding: 0;
@@ -17,9 +16,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100dvh;
-    height: auto;
-    padding: 24px 16px;
+    height: 100vh;
     background: url('login/tom.jpg');
     background-size: cover;
     background-position: center 0%;
@@ -30,9 +27,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    max-width: 380px;
-    background-color: rgba(146, 146, 146, 0.3);
+    background-color: rgba(146, 146, 146, 0.05);
     /* background-color: rgba(0, 0, 0, 0.8); */
     backdrop-filter: blur(10px);
     border-radius: 5px;
@@ -75,7 +70,6 @@ body {
     border-radius: 5px;
     color: rgb(130, 137, 150);
 }
-
 
 .login-content .wrap-input svg {
     position: absolute;
@@ -151,38 +145,34 @@ body {
 }
 
 @media (max-width: 1000px) {
+    html {
+        font-size: 45px;
+    }
     .login-wrap {
-        border-radius: 6px;
+        border-radius: 0.3rem;
     }
-
     .login-content form {
-        width: min(90vw, 320px);
+        width: 80%;
     }
-
     .login-content .wrap-input {
-        margin-bottom: 10px;
+        margin-bottom: 0.6rem;
     }
-
     .login-content .wrap-input input {
-        height: 45px;
-        padding-left: 45px;
-        border-radius: 5px;
-
+        height: 1.6rem;
+        padding-left: 2rem;
+        border-radius: 0.2rem;
     }
-
     .login-content .wrap-input svg {
-        height: 24px;
-        width: 24px;
-        top: calc(50% - 12px);
-        left: 12px;
+        height: 1rem;
+        width: 1rem;
+        top: calc(50% - 0.5rem);
+        left: 0.5rem;
     }
-
     .login-content .wrap-input img {
-        height: 45px;
+        height: 1.6rem;
     }
-
     .login-content button {
-        height: 40px;
+        height: 1.6rem;
         font-size: 0.9rem;
     }
 }
