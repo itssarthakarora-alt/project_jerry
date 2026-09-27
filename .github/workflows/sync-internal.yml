@@ -1,9 +1,15 @@
 # Pipeline 2 — Keep internal.php in sync (GitHub is the source of truth)
-# Trigger: every 15 minutes + manual run from the Actions tab.
+# Triggers:
+#   - every push that touches internal.php (immediate sync)
+#   - every 15 minutes (scheduled drift check)
+#   - manual run from the Actions tab
 # If the server's internal.php differs from GitHub's, GitHub's copy is pushed up.
 name: Sync internal.php (GitHub → GoDaddy)
 
 on:
+  push:
+    paths:
+      - 'internal.php'
   schedule:
     - cron: '*/15 * * * *'   # every 15 minutes (UTC)
   workflow_dispatch:

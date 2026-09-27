@@ -12,7 +12,8 @@ Both live in `.github/workflows/`.
    from the **Actions** tab.
 
 2. **`sync-internal.yml` — keep `internal.php` in sync.**
-   Runs every 15 minutes (and on demand). It compares the server's
+   Runs on every push to `internal.php`, plus every 15 minutes, and on demand.
+   It compares the server's
    `public_html/jerryscvv.vc/internal.php` with the GitHub copy. If they
    differ, GitHub's copy is pushed to the server. **GitHub is the source of
    truth.**
