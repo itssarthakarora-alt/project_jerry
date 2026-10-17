@@ -62,7 +62,13 @@
 }
 
 @media (max-width:1032px) {
+    .block-wrapper {
+        width: 100%;
+    }
     .info-content span{
-        font-size: 24px;
+        font-size: 14px;
+    }
+    .info-content a {
+        word-break: break-word;
     }
 }

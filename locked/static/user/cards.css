@@ -393,21 +393,21 @@ tbody th {
   .input-pair select,
   .input-pair input[type="text"] {
     min-height: 2.15rem;
-    font-size: 36px;
+    font-size: 14px;
   }
   .mult-select-tag .input {
-    font-size: 36px;
+    font-size: 14px;
   }
   .input-pair input[type="checkbox"] + label {
-    padding-left: 60px;
+    padding-left: 28px;
   }
   .input-pair input[type="checkbox"] + label::before {
-    width: 48px;
-    height: 48px;
+    width: 20px;
+    height: 20px;
     top: 0;
   }
   .more-button {
-    font-size: 36px;
+    font-size: 14px;
     padding: 10px 20px;
     height: auto;
   }
@@ -435,10 +435,10 @@ tbody th {
     max-height: 9999px;
   }
   input[type="checkbox"] {
-    width: 36px;
-    height: 36px;
+    width: 18px;
+    height: 18px;
   }
   .navigate a {
-    margin-right: 25px;
+    margin-right: 12px;
   }
 }

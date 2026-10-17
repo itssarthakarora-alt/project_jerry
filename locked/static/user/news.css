@@ -188,16 +188,17 @@
     .card-wrap,
     .seller.card-wrap {
         width: 50%;
+        min-width: 0;
     }
     .base-name {
-        font-size: 36px;
+        font-size: 14px;
     }
     .flags img {
-        height: 36px;
+        height: 16px;
     }
     .card-wrap p,
     .card-wrap span {
-        font-size: 32px;
+        font-size: 14px;
     }
     .progress-info {
         display: flex;
@@ -205,30 +206,30 @@
         align-items: center;
     }
     .progress-container {
-        height: 40px;
-        border-radius: 15px;
+        height: 16px;
+        border-radius: 6px;
     }
     .progress-bar {
-        border-radius: 15px;
+        border-radius: 6px;
     }
     .progress-text  {
-        font-size: 32px;
+        font-size: 14px;
     }
     h3 {
-        font-size: 60px;
+        font-size: 20px;
     }
     .more-button {
-        height: 80px;
-        font-size: 36px;
+        height: 40px;
+        font-size: 14px;
         width: 40%;
-        margin-bottom: 40px;
+        margin-bottom: 16px;
     }
     h4 {
-        font-size: 40px;
+        font-size: 16px;
     }
     .top-nav {
-        font-size: 48px;
-        margin: 20px auto;
+        font-size: 16px;
+        margin: 8px auto;
     }
 }
 

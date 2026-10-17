@@ -1,0 +1,53 @@
+.section {
+    width: 100%;
+    background-color: var(--back-tran);
+    border-radius: 5px;
+    box-shadow: rgba(169, 184, 200, 0.15) 0px 4px 16px 0px;
+    backdrop-filter: blur(5px);
+    height: fit-content;
+}
+
+.block-wrapper {
+    width: 100%;
+}
+
+.info {
+    color: rgba(73, 80, 87, 0.75);
+    background-clip: padding-box;
+    border: 1px solid #eaedf1;
+    border-radius: 5px;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.info p {
+    word-break: break-all;
+}
+
+.info canvas {
+    max-width: 100%;
+    height: auto;
+}
+
+.tocol {
+    flex-wrap: wrap;
+}
+
+@media (max-width:1032px) {
+    .tocol {
+        flex-direction: column;
+        align-items: center;
+    }
+    .tocol > div {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    .info canvas {
+        width: 100%;
+        max-width: 220px;
+        height: auto;
+    }
+    .info p {
+        font-size: 14px;
+    }
+}

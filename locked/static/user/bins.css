@@ -143,19 +143,19 @@ th a {
     .input-pair select,
     .input-pair input {
       min-height: 2.15rem;
-      font-size: 36px;
+      font-size: 14px;
     }
     .more-button,
     .ref {
-      font-size: 36px;
+      font-size: 14px;
       padding: 10px 20px;
       height: auto;
     }
     input[type="checkbox"] {
-      width: 36px;
-      height: 36px;
+      width: 18px;
+      height: 18px;
     }
     .navigate a {
-      margin-right: 25px;
+      margin-right: 12px;
     }
   }

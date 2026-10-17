@@ -549,7 +549,7 @@ header .header-bottom .header-menu-item a:hover svg {
 
 @media (max-width:1032px) {
   html {
-    font-size: 40px;
+    font-size: 16px;
   }
   .header-cover.active {
     display: none;
@@ -566,24 +566,24 @@ header .header-bottom .header-menu-item a:hover svg {
     border: 0;
   }
   .hidden-content li {
-    padding: 30px;
-    margin-left: 100px;
+    padding: 12px;
+    margin-left: 40px;
   }
     .popup {
-      font-size: 40px;
+      font-size: 16px;
     }
     .popup-window {
       width: 90vw;
-      padding: 20px;
+      padding: 16px;
     }
     .popup-button {
-      font-size: 40px;
+      font-size: 16px;
       height: 2.5em;
     }
     header .header-top {
         display: flex;
-        height: 160px !important;
-        border-bottom: 3px solid var(--header-bg-color);
+        height: 64px !important;
+        border-bottom: 1px solid var(--header-bg-color);
     }
     header .header-top .logo {
         display: flex;
@@ -593,24 +593,37 @@ header .header-bottom .header-menu-item a:hover svg {
     }
     header .header-top .logo svg {
         display: block;
-        margin: 0 20px;
+        width: 22px;
+        height: 22px;
+        margin: 0 6px;
     }
     header .header-top .logo a {
-        margin-left: 10px;
+        margin-left: 4px;
+    }
+    header .header-top .logo-jerry {
+        height: 32px;
+        max-width: 48px;
+        width: auto;
+        margin-left: 4px;
+        margin-top: 0;
     }
     header .header-top .header-top-buttons {
-        margin-right: 20px;
+        margin-right: 8px;
     }
     header .header-top .header-top-buttons .top-button {
-        font-size: 42px;
+        font-size: 14px;
         /* min-width: 80px; */
+        margin: 0 4px;
         padding: 0;
-        height: 60px;
-        padding: 0 10px;
+        height: 40px;
+        padding: 0 3px;
         width: auto;
     }
     header .header-top .header-top-buttons .top-button svg {
-        width: 44px !important;
+        width: 18px !important;
+    }
+    header .header-top .header-top-buttons .top-button.balance {
+        font-size: 13px;
     }
     header .header-top .header-top-buttons .top-button a {
         display: flex;
@@ -619,24 +632,24 @@ header .header-bottom .header-menu-item a:hover svg {
     }
     header .header-top .header-top-buttons .cart a span {
         top: 0px;
-        right: 5px;
-        min-width: 28px;
-        height: 28px;
-        padding-left: 4px;
-        padding-right: 4px;
+        right: 2px;
+        min-width: 14px;
+        height: 14px;
+        padding-left: 2px;
+        padding-right: 2px;
         border-radius: 50px;
-        font-size: 28px;
+        font-size: 12px;
     }
     header .header-top .header-top-buttons .cart-items::before {
         right: 25%;
     }
     header .header-top .header-top-buttons .cart-items {
-        right: -140px;
-        width: 70vw;
+        right: 0;
+        width: 85vw;
     }
     .remove,
     .checkout {
-        font-size: 36px;
+        font-size: 14px;
     }
 
 
@@ -652,15 +665,15 @@ header .header-bottom .header-menu-item a:hover svg {
     header .header-bottom {
         /* display: none; */
         align-items: flex-start;
-        top: 160px;
+        top: 64px;
         justify-content: flex-start;
-        font-size: 44px;
+        font-size: 16px;
         background-color: var(--bg-hex);
         left: -100%;
         position: absolute;
         transition: 0.3s ease-in-out;
-        width: 100vw;
-        height: calc(100vh - 158px);
+        width: 100%;
+        height: calc(100vh - 64px);
         z-index: 7;
         overflow: auto;
     }
@@ -671,22 +684,22 @@ header .header-bottom .header-menu-item a:hover svg {
       overflow: hidden;
     }
     header .header-bottom svg {
-        width: 64px;
+        width: 24px;
     }
     header .header-bottom .header-menu-item {
         width: 100%;
         justify-content: flex-start;
-        margin: 20px 0;
+        margin: 8px 0;
     }
     header .header-bottom .header-menu-item a {
-        padding: 30px;
+        padding: 12px;
         width: 100%;
-        height: 100px;
+        height: 48px;
         justify-content: flex-start;
     }
     header .header-bottom .header-menu-item a span {
       width: auto;
-      margin-left: 20px;
+      margin-left: 8px;
 
     }
     header .header-bottom .header-menu-item a span.support_num {
@@ -694,32 +707,32 @@ header .header-bottom .header-menu-item a:hover svg {
       transform: none;
       width: auto;
       font-size: 0.75em;
-      margin-left: 50px;
+      margin-left: 20px;
       min-width: 1em;
       height: 1em;
       padding: 0.75em;
     }
     
     .support_num.base {
-      right: 50px;
+      right: 20px;
       top: 50%;
       transform: translate(0, -50%);
       font-size: 0.75em;
-      margin-left: 50px;
+      margin-left: 20px;
       min-width: 1em;
       height: 1em;
       padding: 0.75em;
     }
     .main-content {
         padding:0 ;
-        font-size: 32px;
+        font-size: 14px;
     }
     .jerry-back {
       height: 60vh;
       left: -20px;
     }
     .lang-select .select-list {
-      margin-top: 50px;
+      margin-top: 20px;
     }
 }
 
