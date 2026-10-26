@@ -24,6 +24,9 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftp
+          port: 21
+          timeout: 120000
 
           # This FTP account (deploy@jerryscvv.vc) opens directly inside
           # public_html/jerryscvv.vc/, so the deploy root is the account root.
